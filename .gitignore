@@ -1,0 +1,28 @@
+#---------------------------------------#
+# Project Ignores                       #
+#---------------------------------------#
+build/
+lib/*.jar
+target
+.settings
+.project
+.classpath
+.cache
+*.iml
+.java-version
+
+# Compiled class file
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# misc
+*.log
+log/
+logs/
