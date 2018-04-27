@@ -9,7 +9,7 @@ Project can be executed as follows:
 After the project is up and running DB , Services and Swagger-UI can be accessed as follows:
 
  - DB
-	 - localhost:8080/h2-console     with schema jdbc:h2:mem:testdb
+	 - Access localhost:8080/h2-console     with schema jdbc:h2:mem:testdb  connect and see tables data.
  
  - Services
 
