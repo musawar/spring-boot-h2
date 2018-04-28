@@ -35,7 +35,7 @@ public class EmployeeController {
 		return empRepository.getAllEmployees();
 	}
 
-	@ApiOperation(value = "Get an Employee with EMPNO", response = Employee.class)
+	@ApiOperation(value = "Get an Employee with empno", response = Employee.class)
 	@RequestMapping(value = "/getEmpById/{empno}", method = RequestMethod.GET)
 	public Employee getDeptById(@PathVariable Integer empno) {
 		return empRepository.getByEmptNo(empno);
