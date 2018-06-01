@@ -14,11 +14,11 @@ After the project is up and running DB, Services and Swagger-UI can be accessed 
  - Services
 
 	 - Department
-		 - GET  localhost:8080/dept/getAllDept
-	 	 - GET  localhost:8080/dept/getDeptById/{deptno}
-		 - POST localhost:8080/dept/insertDept
-		 - PUT localhost:8080/dept/updateDept
-		 - DELETE localhost:8080/dept/deleteDept/{deptno}	
+		 - GET  localhost:8080/dept
+	 	 - GET  localhost:8080/dept/{deptno}
+		 - POST localhost:8080/dept
+		 - PUT  localhost:8080/dept
+		 - DELETE localhost:8080/dept/{deptno}	
 
 	 - Employee
 		 - GET  localhost:8080/emp/getAllEmployee
