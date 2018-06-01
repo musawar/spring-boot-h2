@@ -21,9 +21,9 @@ After the project is up and running DB, Services and Swagger-UI can be accessed 
 		 - DELETE localhost:8080/dept/{deptno}	
 
 	 - Employee
-		 - GET  localhost:8080/emp/getAllEmployee
-		 - GET  localhost:8080/emp/getEmpById/{empno}
-		 - DELETE localhost:8080/emp/deleteEmp/{empno} 
+		 - GET  localhost:8080/emp
+		 - GET  localhost:8080/emp/{empno}
+		 - DELETE localhost:8080/emp/{empno} 
 		 
  - Swagger-UI
 	 - localhost:8080/swagger-ui.html
